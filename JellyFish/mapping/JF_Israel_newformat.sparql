@@ -52,7 +52,7 @@ CONSTRUCT {
   	sosa:hasResult ?result_URI ;
 	dwc:occurrenceStatus ?occurrenceStatus ;
 	dwc:basisOfRecord ?basisOfRecord ;
-	oim-jf:distanceWalkedinmeters ?distanceWalkedinmetersV ;
+	oim-jf:distanceWalkedInMeters ?distanceWalkedinmetersV ;
 }  	
 FROM <file:jf-pilot-sample.csv> 
 WHERE {
