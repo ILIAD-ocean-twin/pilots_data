@@ -28,6 +28,7 @@ CONSTRUCT {
 	sosa:resultTime ?propert_date ;
     sosa:phenomenonTime ?propert_date ; 
 	sosa:hasMember ?obs_URI ;
+	dwc:recordedByID ?recordedBy ;
 	dwc:eventDate ?propert_date ;
 	dwc:eventType ?eventType ;
 }  	
