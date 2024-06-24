@@ -1,0 +1,27 @@
+Field,Type,definition,,mapping to OIM,
+occurrence,string,,,dct:type of observation collections,"field name not good, dwc:occurrence is a class"
+ObsID,int,,,sosa:ObservationCollection (id),
+occurrenceID,string,,,sosa:Observation (id),
+eventDate,datetime,,,"sosa:resultTime, sosa:phenomenonTime, dwc:eventDate",
+decimalLongitude ,float,,,"wgs84:long, dwc:decimalLongitude",
+decimalLatitude,float,,,"wgs84:lat, dwc:decimalLatititude",
+scientificName,string,,,dwc:scientificName,
+occurrenceStatus,string,,,dwc:occurrenceStatus,
+basisOfRecord,string,,,dwc:basisOfRecord,
+scientificNameID,URL,,,"dwc:scientificNameID, dwc-mbg:aphiaID",
+recordedBy,int,,,sosa:Sensor (id),also dwc:recordedById
+quantificationMethod,string,,,"sosa:Procedure (id), dwc:measurementMethod",it seems more measurementMethod rather than quantificationMethod?
+organismQuantity,string,,,dwc:organismQuantity,
+organismQuantityType,string,,,dwc:organismQuantityType,
+sampleSizeUnit,string,,,dwc:sampleSizeUnit,
+sampleSizeValue,string,,,dwc:sampleSizeValue,
+MachineObservation,string,,,---,"field name not good, dwc:MachineObservation is a class"
+eventType,string,,,dwc:eventType,
+coordinateUncertaintyInMeters,int,,,dwc:coordinateUncertaintyInMeters,
+strandedJellyfish,string,,,oim-jf:strandedJellyfish,
+goldUser,string,,,oim-jf:agentConfidence,
+Stinging_Water,string,,,oim-jf:stingByJellyFish,
+distanceWalkedinmeters,string,,,oim-jf:distanceWalkedInMeters,what is this? what does it means for observations collected swimming for example?
+Location_20_Zones_ID,int,,,dwc:locality,
+Distance_from_coast,string,,,oim-jf:distanceFromShore,
+Quantity_Reported,int,,,dwc:individualCount,
